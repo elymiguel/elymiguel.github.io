@@ -12,7 +12,6 @@ a {
 }
 a:hover {
     color: #0099ff;
-    /*color: rgb(79, 161, 242);*/
     transition: all 0.7s ease 0s;
 }
 h1, h2 {font-weight: 600;}
