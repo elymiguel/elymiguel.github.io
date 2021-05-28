@@ -90,6 +90,8 @@ a:hover {
 }
 .bodyLight .itens_bottom li:nth-child(1) a:active { color: #27496d;}
 
+.bodyLight .technologies li i span {color: #2b2b28;} 
+
 
 
 /************************ ASIDE **********************/
@@ -211,6 +213,38 @@ a:hover {
     border-bottom: 1px solid rgb(136, 153, 158, 0.5);
 
 }
+
+.technologies {
+
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+    
+    align-items: center;
+    justify-content:space-between;
+
+    font-size: 1.5em;
+    margin-right: 1.2em;
+    
+}
+.technologies span{
+    font-size: 0.7em; 
+    
+}
+
+
+
+.technologies li:nth-child(1) i {color: #ff7423;} 
+.technologies li:nth-child(2) i {color: #0099ff;} 
+.technologies li:nth-child(3) i {color: #ffa323;} 
+.technologies li:nth-child(4) i {color: #0099ff;} 
+
+
+.technologies li i span {color: rgb(136, 153, 158);} 
+
+
+
 
 /*******************+ B SIDE ********************/
 .menubar {
@@ -389,6 +423,7 @@ a:hover {
 @media screen and (max-width:580px){
 
     .asidebottom {display: none; visibility: hidden;}
+    .technologies li i span { display: none;} 
    }
   
 
