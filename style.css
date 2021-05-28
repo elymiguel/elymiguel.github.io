@@ -81,7 +81,7 @@ a:hover {
     background: linear-gradient(0deg, rgba(11,59,105,1) 0%, rgba(23,35,51,1) 100%);
     background: linear-gradient(0deg, rgba(13,103,187,1) 0%, rgba(21,46,77,1) 100%);
     */
-    
+
     display: flex;
     flex-direction: column;
 
@@ -140,8 +140,8 @@ a:hover {
 
 
 .myphoto {
-    width: 135px;
-    height: 135px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: 1px solid rgb(136, 153, 158, 0.5);
     transition: all 0.5s ease 0s;
@@ -202,15 +202,9 @@ a:hover {
     
     align-items: center;
     justify-content:space-between;
-
-    font-size: 1.5em;
+    
     margin-right: 1.2em;
-    
-}
-.technologies span{
-    font-size: 1rem;
-    font-family: 'Open Sans', sans-serif;
-    
+ 
 }
 
 .technologies li:nth-child(1) i {color: #ff7423;} 
@@ -395,7 +389,7 @@ a:hover {
 @media screen and (max-width:580px){
 
     .asidebottom {display: none; visibility: hidden;}
-    .technologies li i span { display: none;} 
+    .technologies li span { display: none;} 
    }
   
 
