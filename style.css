@@ -134,8 +134,8 @@ a:hover {
 }
 
 .outsystems_certified img {
-    width:60px;
-    height:80px; 
+    width:50px;
+    height:70px; 
 }
 
 
@@ -207,10 +207,13 @@ a:hover {
  
 }
 
-.technologies li:nth-child(1) i {color: #ff7423;} 
+.technologies li:nth-child(1) i {color: #E95420;} 
 .technologies li:nth-child(2) i {color: #0099ff;} 
 .technologies li:nth-child(3) i {color: #ffa323;} 
 .technologies li:nth-child(4) i {color: #0099ff;} 
+.technologies li:nth-child(5) i {color: #88304C;}
+.technologies li img {width: 20px; height: 20px; opacity: 0.7;}
+
 
 
 .technologies li i span {color: rgb(136, 153, 158);} 
