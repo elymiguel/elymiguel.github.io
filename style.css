@@ -1,0 +1,394 @@
+/*
+CV Color
+rgb(22, 32, 44) - body
+rgb(25, 39, 52) - aside e menu bar
+rgb(79, 161, 242) - Color Home
+rgb(136, 153, 158) - texto
+
+
+
+*/
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+* {box-sizing: border-box;}
+
+/************* START *********************/
+
+a {
+    color: rgb(136, 153, 158);
+    text-decoration: none;
+
+}
+a:hover {
+    color: #0099ff;
+    /*color: rgb(79, 161, 242);*/
+    transition: all 0.5s ease 0s;
+}
+h1, h2 { font-weight: bold;}
+
+
+/******************** BODY *************************/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    
+    display: flex;
+
+    opacity: 0.85;
+}
+
+/******************** BODY-DARK *************************/
+.bodyDark {
+    color: rgb(136, 153, 158);
+    background-color: rgb(22, 32, 44);
+
+   /* background: linear-gradient(0deg, rgba(3,36,68,1) 0%, rgba(13,33,59,1) 100%); */
+    
+/*
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cpolygon fill='%23000' fill-opacity='.1' points='120 0 120 60 90 30 60 0 0 0 0 0 60 60 0 120 60 120 90 90 120 60 120 0'/%3E%3C/svg%3E");
+*/
+}
+/******************** BODY-LIGHT *************************/
+.bodyLight {
+    background-color: rgb(240, 240, 240);
+    color: #2b2b28;
+    opacity: 0.8;
+   
+    
+}
+.bodyLight a {
+    color: #2b2b28;
+}
+
+a:hover {
+    color: #ffa323;
+    transition: all 0.5s ease 0s;
+}
+
+.bodyLight .socialmedia li a:hover {color: #ffa323;}
+
+.bodyLight .aside {
+    background-color: #f0f0f3;
+}
+.bodyLight .aside .myphoto {opacity: none;}
+.bodyLight .menubar {
+    background-color: #f0f0f3
+}
+
+.bodyLight .menubar li a:hover {color: #ffa323;}
+.bodyLight .menubar li:nth-child(1) a {color:  #ffa323;}
+
+.bodyLight .itens_bottom li:nth-child(1) a {
+    color:  #ffa323;
+}
+.bodyLight .itens_bottom li:nth-child(1) a:hover {
+    color: #0099ff;
+}
+.bodyLight .itens_bottom li:nth-child(1) a:active { color: #27496d;}
+
+
+
+/************************ ASIDE **********************/
+.aside {
+
+    background-color: rgb(25, 39, 52); 
+    
+    /*
+    background: linear-gradient(0deg, rgba(11,59,105,1) 0%, rgba(23,35,51,1) 100%);
+    background: linear-gradient(0deg, rgba(13,103,187,1) 0%, rgba(21,46,77,1) 100%);
+*/
+    display: flex;
+    flex-direction: column;
+
+    width: 18em;
+    height: 100vh;
+
+    align-items: center;
+    text-align: center;
+
+    position: fixed;
+    padding: 1.5em;
+
+
+    border-right: 1px solid rgb(136, 153, 158, 0.5);
+    transition: all 0.5s ease 0s;
+
+    
+}
+.aside p {
+    font-size: 14px;
+}
+
+.aside ul {
+    list-style: none;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    
+    padding: 1em 2em;
+}
+.aside ul li{
+    font-size: 1.5em;
+    padding: 0.5em;
+ 
+}
+.socialmedia li a {
+    font-size: 1.4em;
+    
+}
+.socialmedia li a:hover {
+    color:rgb(22, 32, 44);
+   
+}
+.socialmedia li:nth-child(-n+4) a:active {color: #0099ff;}
+
+.outsystems_certified {  
+    height:80px;
+    height:80px; 
+}
+
+.outsystems_certified img {
+    width:60px;
+    height:80px; 
+}
+
+
+.myphoto {
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 50%;
+    border: 1px solid#2b2b28;
+    transition: all 0.5s ease 0s;
+}
+
+
+
+/******************* CONTENT **********************/
+
+.content {
+    width: 100%;
+    margin-left: 20em;
+    margin-right: 5em;
+
+    padding: 2em 0;
+
+    transition: all 0.5s ease 0s;
+}
+
+
+.exp_profissional {
+    
+    border-top: 1px solid rgb(136, 153, 158, 0.5);
+}
+.educational {
+    margin-top: 2em;
+    border-top: 1px solid rgb(136, 153, 158, 0.5);
+}
+
+.certifications {
+    margin-top: 2em;
+    border-top: 1px solid rgb(136, 153, 158, 0.5);
+}
+
+.profession {
+    text-decoration: underline;
+}
+
+.skills {
+    margin-top: 2em;
+    border-top: 1px solid rgb(136, 153, 158, 0.5);
+
+}
+.languages {
+    margin-top: 2em;
+    border-top: 1px solid rgb(136, 153, 158, 0.5);
+    border-bottom: 1px solid rgb(136, 153, 158, 0.5);
+
+}
+
+/*******************+ B SIDE ********************/
+.menubar {
+   
+    background-color: rgb(25, 39, 52);
+/*
+    background: linear-gradient(0deg, rgba(11,59,105,1) 0%, rgba(23,35,51,1) 100%);
+
+    */
+
+
+    display: flex;
+    flex-direction: column;
+
+    width: 4em;
+    height: 100vh;
+
+    align-items: center;
+    justify-content: space-between;
+ 
+    position: fixed;
+    right: 0px;
+    
+    border-left: 1px solid rgb(136, 153, 158, 0.5);
+    transition: all 0.5s ease 0s; 
+
+
+}
+
+.menubar ul {
+    list-style: none;
+    font-size: 1.5em;
+    margin-right: 1.2em;
+    
+}
+ .itens_top li {
+    padding-bottom: 1em;
+   
+    
+}
+.itens_top li:nth-child(1) a{
+ color: #0099ff;
+}
+.itens_bottom li:nth-child(1) a:hover {color: #f6f578;} 
+.itens_bottom li:nth-child(1) a:active {color: #0099ff;}
+
+.itens_bottom li{
+    padding-top: 1em;
+  
+}
+.asidetop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.asidebottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+
+/******************* CONTATO **********************/
+
+.contato {
+    width: 100%;
+    margin-left: 20em;
+    margin-right: 5em;
+
+    padding: 2em 0;
+
+    transition: all 0.5s ease 0s;
+}
+
+
+@media screen and (max-width:1000px){
+
+        .nome > p {display: none;} /** Maior que (>) filho direto **/
+        .info_pessoal { display: none;}
+
+        .aside {
+            display: flex;
+            flex-direction: row;
+
+
+            width: 100%;
+            height: 5em;
+
+            min-width: 500px;
+
+            position: fixed;
+            top: 0px;
+            left: 0px;
+
+            justify-content: space-between;
+
+            border-bottom: 1px solid rgb(136, 153, 158, 0.5);
+            transition: all 0.5s ease 0s; 
+
+        }
+        .aside h1 {
+            line-height: 0.5em;
+            font-size: 1.5em;
+            
+      }
+        .aside h2 {
+            line-height: 0.5em;
+            font-size: 1em;
+           
+        }
+        .socialmedia li a {
+            font-size: 1em;
+        }
+
+        .content {
+            width: 100%;
+            margin: 5em;
+        }
+
+        .menubar {
+            display: flex;
+            flex-direction: row;
+
+            width: 100%;
+            height: 4em;
+
+            position: fixed;
+            bottom: 0px;
+
+            border-top: 1px solid rgb(136, 153, 158, 0.5);
+            transition: all 0.5s ease 0s; 
+        }
+
+        .menubar ul {display: flex;}
+        .menubar ul li a {
+            font-size: 1em;
+        }
+        .itens_top li {padding: 0.7em;}
+        .itens_bottom li {padding: 0.5em;}
+
+        .myphoto {
+            width: 60px;
+            height: 60px;
+            margin-right: 2em;
+            border-radius: 50%;
+            transition: all 0.5s ease 0s;
+        }
+
+        .outsystems_certified {
+            display: none;
+            visibility: hidden;
+        }
+        .outsystems_certified img {
+            display: none;
+            visibility: hidden;
+        }
+}
+
+
+@media screen and (max-width:680px){
+
+ .myphoto {display: none; visibility: hidden;}
+        
+ .nome > h1 {padding-left: 1.5em;}
+ .nome > h3 {padding-left: 2em;}
+
+ .nome h3 {font-size: 0.9em;}
+ 
+
+}
+
+@media screen and (max-width:580px){
+
+    .asidebottom {display: none; visibility: hidden;}
+   }
+  
+
