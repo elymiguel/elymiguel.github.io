@@ -74,8 +74,9 @@ a:hover {
 .bodyLight .technologies li img {opacity: 1;}
 
 
-
+/*****************************************************/
 /************************ ASIDE **********************/
+/*****************************************************/
 .aside {
 
     background-color: rgb(25, 39, 52); 
@@ -94,6 +95,8 @@ a:hover {
     align-items: center;
     text-align: center;
 
+    justify-content: space-between;
+
     position: fixed;
     padding: 1.5em;
 
@@ -101,7 +104,6 @@ a:hover {
     border-right: 1px solid rgb(136, 153, 158, 0.5);
     transition: all 0.5s ease 0s;
 
-    
 }
 .aside p {
     font-size: 14px;
@@ -112,8 +114,9 @@ a:hover {
     display: flex;
 
     align-items: center;
+   
     justify-content: space-around;
-    
+
     padding: 1em 2em;
 }
 .aside ul li{
@@ -121,6 +124,14 @@ a:hover {
     padding: 0.5em;
  
 }
+
+
+
+/****************************************************************/
+/************************ Aside - Items *************************/
+/****************************************************************/
+
+
 .socialmedia li a {
     font-size: 1.4em;
     
@@ -142,20 +153,21 @@ a:hover {
     opacity: 0.8;
 }
 
-
 .myphoto {
     width: 120px;
     height: 120px;
     border-radius: 50%;
     border: 1px solid rgb(136, 153, 158, 0.5);
     transition: all 0.5s ease 0s;
+
+   
     
 }
 
 
-
+/*****************************************************/
 /******************* CONTENT **********************/
-
+/*****************************************************/
 .content {
     width: 100%;
     margin-left: 20em;
@@ -222,8 +234,10 @@ a:hover {
 
 .technologies li i span {color: rgb(136, 153, 158);} 
 
+/*****************************************************/
+/*********************** B SIDE **********************/
+/*****************************************************/
 
-/*******************+ B SIDE ********************/
 .menubar {
    
     background-color: rgb(25, 39, 52);
@@ -268,20 +282,7 @@ a:hover {
     padding-top: 1em;
   
 }
-.asidetop {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  
-}
-.asidebottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  
-}
+
 
 
 /******************* CONTATO **********************/
@@ -295,6 +296,10 @@ a:hover {
 
     transition: all 0.5s ease 0s;
 }
+
+
+
+/****************** MEDIA SCREEN WIDTH ********************/
 
 
 @media screen and (max-width:1000px){
@@ -322,12 +327,12 @@ a:hover {
             transition: all 0.5s ease 0s; 
 
         }
-        .aside h1 {
+        .aside h2 {
             line-height: 0.5em;
             font-size: 1.5em;
             
       }
-        .aside h2 {
+        .aside h4 {
             line-height: 0.5em;
             font-size: 1em;
            
@@ -370,33 +375,36 @@ a:hover {
             transition: all 0.5s ease 0s;
         }
 
-        .outsystems_certified {
+        .outsystems_certified li {
             display: none;
-            visibility: hidden;
+            
         }
-        .outsystems_certified img {
-            display: none;
-            visibility: hidden;
-        }
+        
 }
 
 
-@media screen and (max-width:680px){
+@media screen and (max-width:720px){
 
- .myphoto {display: none; visibility: hidden;}
+ .myphoto {display: none; transition: all 0.5s ease 0s; }
         
- .nome > h1 {padding-left: 1.5em;}
- .nome > h3 {padding-left: 2em;}
+ .nome > h2 {padding-left: 1em; }
+ .nome > h4 {padding-left: 2em; font-size: 0.7em;}
 
- .nome h3 {font-size: 0.9em;}
  
-
 }
 
 @media screen and (max-width:580px){
 
-    .asidebottom {display: none; visibility: hidden;}
+    .socialmedia li i{display: none;}
     .technologies li span { display: none;} 
+
    }
   
+/****************** MEDIA SCREEN HEIGHT ********************/
+
+@media screen and (max-height:580px){
+
+    .aside div p {display: none;}
+    
+   }
 

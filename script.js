@@ -1,4 +1,4 @@
-// CHANGE BODY TEMA
+// FUNCTION - CHANGE BODY TEMA
 
 function changeBodyTheme(){
     let obj=document.getElementById('body');
@@ -9,3 +9,7 @@ function changeBodyTheme(){
      }
     }
 
+// FUNCTION - SHOW MAIL
+function myMail(){
+    alert('Get in touch: ely.miguel@gmail.com');
+    } 
