@@ -1,0 +1,38 @@
+/***** COLORS *****/
+
+/***** DARK *****/
+.my-text-dark {
+    color: rgb(22, 32, 44);
+}
+.my-bg-dark {
+    background-color: rgb(22, 32, 44);
+}
+.my-body-dark {
+    color: rgb(185, 205, 230); 
+    background-color: rgb(22, 32, 44);
+}
+/***** LIGHT *****/
+.my-text-light {
+    color: rgb(185, 205, 230); 
+}
+.my-bg-light {
+    background-color: rgb(185, 205, 230); 
+}
+
+/***** ANIMATE TEXT *****/
+.title { 
+    transform: translateY(-120px);  
+    transition: all 1.5s linear;
+
+    opacity: 0.4;
+}
+.title.animate { 
+    transform: translateY(0);  
+    opacity: 0.8;
+}
+
+
+.nav-pills > a.active  {
+    color: rgb(185, 205, 230) !important;
+    background-color: rgb(22, 32, 44) !important;
+}
