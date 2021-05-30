@@ -43,3 +43,31 @@ p {
 .bootstrap-color { 
     color: #533C78;
 }
+
+/***** FOOTER *****/
+footer { 
+    display: flex;
+    height: 3.2em;
+
+    position: fixed;
+    bottom: 0;
+
+    justify-content: center;
+    align-items: center;
+}
+footer div ul { 
+    display: flex;
+    flex-direction: row;
+
+    list-style: none;
+    padding-top: 1em;
+}
+footer div ul li { 
+    padding: 3em;
+}
+
+footer div ul li:nth-child(1) a {color: #0368D4;}
+footer div ul li:nth-child(2) a {color: #248C40;}
+footer div ul li:nth-child(3) a {color: #D0A00E;}
+footer div ul li:nth-child(4) a {color: #B43040;}
+

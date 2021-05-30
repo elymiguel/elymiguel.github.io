@@ -23,3 +23,6 @@
     color: rgb(22, 32, 44); 
     background-color: rgb(240, 240, 240);
 }
+
+.my-bg-blue-light { background-color: rgb(157, 198, 236); } 
+.my-body-blue-light { color: rgb(22, 32, 44); background-color: rgb(157, 198, 236); }
