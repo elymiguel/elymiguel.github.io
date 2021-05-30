@@ -38,15 +38,15 @@ body{
 .bodyDark p, .bodyDark span, .solis a{
     color: rgb(136, 153, 158); 
 }
+
 /******************** BODY-LIGHT *************************/
 .bodyLight {
    
     background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%);
-    color: #2b2b28;
+    color: #111111;
     
 }
-
-.bodyLight a {color: #2b2b28;}
+.bodyLight a {color: #111111;}
 
 .bodyLight a:hover {
     color: #ffa323;
@@ -57,31 +57,29 @@ body{
 
 .bodyLight .aside {
    /*background-color: #f0f0f3;*/
-   background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%); 
+   background: linear-gradient(0deg, rgba(157, 198, 236)  0%, rgba(157, 198, 236) 100%); 
 }
 
 .bodyLight .aside .myphoto {opacity: none;}
 
 .bodyLight .menubar {
     /*background-color: #f0f0f3;*/
-    background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%); 
+    background: linear-gradient(0deg, rgba(157, 198, 236)  0%, rgba(157, 198, 236) 100%); 
 }
 
 .bodyLight .menubar li a:hover {color: goldenrod;}
 
-.bodyLight .menubar li:nth-child(1) a {color:  goldenrod;}
+.bodyLight .itens_bottom li:nth-child(1) a:hover {color: goldenrod;}
+.bodyLight .itens_bottom li:nth-child(1) a:active { color: #111111;}
 
-.bodyLight .itens_bottom li:nth-child(1) a {color:  goldenrod;}
-
-.bodyLight .itens_bottom li:nth-child(1) a:hover {color: #0099ff;}
-
-.bodyLight .itens_bottom li:nth-child(1) a:active { color: #27496d;}
-
-.bodyLight .technologies li i span {color: #2b2b28;} 
+.bodyLight .technologies li i span {color: #111111;} 
 
 .bodyLight .technologies li:nth-child(6) img {opacity: 0.9;}
 
 .bodyLight .outsystems_certified img {opacity: 1;}
+
+.bodyLight .itens_top li:nth-child(1) a {color: #0368D4;}
+.bodyLight .itens_top li:nth-child(1) a:hover {color: goldenrod; transition: all 0.7s ease 0s;}
 
 
 
@@ -170,10 +168,11 @@ body{
     border-radius: 50%;
     border: 1px solid rgb(136, 153, 158, 0.5);
     transition: all 0.5s ease 0s;
-
-   
     
 }
+
+
+
 
 
 /*****************************************************/
@@ -184,7 +183,7 @@ body{
     margin-left: 20em;
     margin-right: 5em;
 
-    padding: 2em 0;
+    padding: 1em 0;
 
     transition: all 0.5s ease 0s;
 }
@@ -282,17 +281,13 @@ body{
     font-size: 1.5em;
     margin-right: 1.7em;  
 }
-
 .itens_top li {padding-bottom: 1em; font-size: 1.1em;}
+
+
 .itens_top li:nth-child(1) a {color: #0099ff;}
 .itens_top li:nth-child(1) a:hover {color: goldenrod; transition: all 0.7s ease 0s;}
 
-.itens_bottom li:nth-child(1) a:hover {color: goldenrod; transition: all 0.7s ease 0s;} 
-.itens_bottom li:nth-child(1) a:active {color: #0099ff;}
-
 .itens_bottom li{padding-top: 1em; font-size: 1.1em;}
-
-
 
 /******************* CONTATO **********************/
 
