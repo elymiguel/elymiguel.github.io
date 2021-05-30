@@ -41,7 +41,6 @@ body{
 
 /******************** BODY-LIGHT *************************/
 .bodyLight {
-   
     background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%);
     color: #111111;
     
@@ -49,11 +48,10 @@ body{
 .bodyLight a {color: #111111;}
 
 .bodyLight a:hover {
-    color: #ffa323;
-    transition: all 0.5s ease 0s;
+   color: #0368D4; transition: all 0.8s ease 0s;
 }
 
-.bodyLight .socialmedia li a:hover {color: goldenrod;}
+.bodyLight .socialmedia li a:hover {color: rgb(240, 240, 220); transition: all 0.8s ease 0s;}
 
 .bodyLight .aside {
    /*background-color: #f0f0f3;*/
@@ -67,7 +65,7 @@ body{
     background: linear-gradient(0deg, rgba(157, 198, 236)  0%, rgba(157, 198, 236) 100%); 
 }
 
-.bodyLight .menubar li a:hover {color: goldenrod;}
+.bodyLight .menubar li a:hover {color: #0368D4; transition: all 0.8s ease 0s;}
 
 .bodyLight .itens_bottom li:nth-child(1) a:hover {color: goldenrod;}
 .bodyLight .itens_bottom li:nth-child(1) a:active { color: #111111;}
