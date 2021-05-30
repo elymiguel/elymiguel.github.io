@@ -31,18 +31,18 @@ body{
 /******************** BODY-DARK *************************/
 .bodyDark {
     color: rgb(162, 185, 192); 
-    background-color: rgb(22, 32, 44);
-
-   /* background: linear-gradient(0deg, rgba(3,36,68,1) 0%, rgba(13,33,59,1) 100%); */  
+    /*background-color: rgb(22, 32, 44); */
+    background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%);
+    
 }
 .bodyDark p, .bodyDark span, .solis a{
     color: rgb(136, 153, 158); 
 }
 /******************** BODY-LIGHT *************************/
 .bodyLight {
-    background-color: rgb(240, 240, 240);
+    background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 100%);
     color: #2b2b28;
-    opacity: 0.8;
+    
 }
 
 .bodyLight a {color: #2b2b28;}
@@ -54,11 +54,17 @@ body{
 
 .bodyLight .socialmedia li a:hover {color: goldenrod;}
 
-.bodyLight .aside {background-color: #f0f0f3;}
+.bodyLight .aside {
+    /*background-color: rgb(146, 177, 187);*/
+   
+background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 100%);
+}
 
 .bodyLight .aside .myphoto {opacity: none;}
 
-.bodyLight .menubar {background-color: #f0f0f3}
+.bodyLight .menubar {
+    background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 100%);
+}
 
 .bodyLight .menubar li a:hover {color: goldenrod;}
 
@@ -82,13 +88,14 @@ body{
 /************************ ASIDE **********************/
 /*****************************************************/
 .aside {
-
-    background-color: rgb(25, 39, 52); 
+/*
+    background-color: rgb(25, 39, 52);  
+    background: linear-gradient(0deg, rgba(13,103,187,1) 0%, rgba(21,46,77,1) 100%);   
+*/   
     
-    /*
-    background: linear-gradient(0deg, rgba(11,59,105,1) 0%, rgba(23,35,51,1) 100%);
-    background: linear-gradient(0deg, rgba(13,103,187,1) 0%, rgba(21,46,77,1) 100%);
-    */
+    background: linear-gradient(0deg, rgb(11, 46, 78) 20%, rgba(23,35,51,1) 100%);
+   
+   
 
     display: flex;
     flex-direction: column;
@@ -247,8 +254,9 @@ body{
 
 .menubar {
    
-    background-color: rgb(25, 39, 52);
-/*  background: linear-gradient(0deg, rgba(11,59,105,1) 0%, rgba(23,35,51,1) 100%); */
+    /*  background-color: rgb(25, 39, 52); */
+    background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%);
+
 
     display: flex;
     flex-direction: column;
@@ -305,6 +313,7 @@ body{
 @media screen and (max-width:1000px){
 
         .nome > p {display: none;} /** Maior que (>) filho direto **/
+        
         .info_pessoal { display: none;}
 
         .aside {
@@ -358,6 +367,10 @@ body{
 
             border-top: 1px solid rgb(136, 153, 158, 0.5);
             transition: all 0.5s ease 0s; 
+            
+        }
+        .bodyLight .menubar {
+            background: linear-gradient(0deg, rgba(146, 177, 187) 0%, rgba(155, 214, 231)  100%);
         }
 
         .menubar ul {display: flex;}
@@ -379,6 +392,8 @@ body{
             display: none;
             
         }
+        .nome > h2 {padding-left: 1em; }
+        .nome > h4 {padding-left: 2em; font-size: 0.7em;}
         
 }
 

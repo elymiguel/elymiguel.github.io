@@ -19,3 +19,7 @@
 .my-bg-light {
     background-color: rgb(179, 189, 192); 
 }
+.my-body-light {
+    color: rgb(22, 32, 44); 
+    background-color: rgb(179, 189, 192);
+}
