@@ -40,7 +40,8 @@ body{
 }
 /******************** BODY-LIGHT *************************/
 .bodyLight {
-    background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 100%);
+   
+    background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%);
     color: #2b2b28;
     
 }
@@ -55,15 +56,15 @@ body{
 .bodyLight .socialmedia li a:hover {color: goldenrod;}
 
 .bodyLight .aside {
-    /*background-color: rgb(146, 177, 187);*/
-   
-background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 100%);
+   /*background-color: #f0f0f3;*/
+   background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%); 
 }
 
 .bodyLight .aside .myphoto {opacity: none;}
 
 .bodyLight .menubar {
-    background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 100%);
+    /*background-color: #f0f0f3;*/
+    background: linear-gradient(0deg, rgba(240, 240, 240)  0%, rgba(240, 240, 240) 100%); 
 }
 
 .bodyLight .menubar li a:hover {color: goldenrod;}
@@ -369,9 +370,6 @@ background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 10
             transition: all 0.5s ease 0s; 
             
         }
-        .bodyLight .menubar {
-            background: linear-gradient(0deg, rgba(146, 177, 187) 0%, rgba(155, 214, 231)  100%);
-        }
 
         .menubar ul {display: flex;}
         .menubar ul li a {
@@ -412,6 +410,9 @@ background: linear-gradient(0deg, rgba(155, 214, 231) 0%, rgba(146, 177, 187) 10
 
     .socialmedia li i{display: none;}
     .technologies li span { display: none;} 
+    .menubar {height: 4em;}
+    .itens_top li i { font-size: 0.9em;}
+    .itens_bottom li i { font-size: 0.9em;} 
 
    }
   
