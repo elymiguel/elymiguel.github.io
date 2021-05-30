@@ -11,5 +11,5 @@ function changeBodyTheme(){
 
 // Function - Show Email
 function myMail(){
-    alert('Get in touch: ely.miguel@gmail.com');
+    alert('Hey! I am glad you are interested in contacting me. Send me a message on my Linkedin profile at any time :)');
     } 
