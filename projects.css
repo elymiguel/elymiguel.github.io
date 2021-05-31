@@ -168,14 +168,25 @@ footer div ul li a span {padding-left: 10px; color: rgb(240,240,240);}
 
 /** MEDIA QUERIES **/
 
+@media (max-width: 900px) {
+    
+    .menu-bottom ul li a i {font-size: 1.1rem;}
+    .menu-bottom ul li a span {font-size: 14px;}
+}
+@media (max-width: 720px) {
+    
+    .menu-bottom ul li a i {font-size: 1.5rem;}
+    .menu-bottom ul li a span {display: none;}
+}
+
 @media (max-width: 600px) {
     
+    .menu-bottom ul li a i {font-size: 1.2rem;}
+    .menu-bottom ul li {padding: 2em;}
     .card {
         margin: 1rem;
     }
 }
-
-
 
 /** MEDIA QUERIES - NAV SIDE **/
   
