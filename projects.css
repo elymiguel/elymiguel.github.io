@@ -22,6 +22,22 @@ p {
     background-color: rgb(22, 32, 44) !important;
 }
 
+.nav-pills > a {
+    color: rgb(22, 32, 44) !important;
+    font-weight: bold;
+}
+.nav-pills > a:hover {
+    color: rgb(3, 104, 212) !important;
+}
+.nav-pills > a:hover.active {
+    color: rgb(240, 240, 240) !important;
+}
+
+
+
+
+
+
 /***** LOGO OUTSYSTEMS *****/
 #outsystems > h3 > img { 
     width: 40px;
@@ -43,6 +59,9 @@ p {
 .bootstrap-color { 
     color: #533C78;
 }
+
+
+
 
 /***** FOOTER *****/
 footer { 
@@ -71,3 +90,12 @@ footer div ul li:nth-child(2) a {color: #248C40;}
 footer div ul li:nth-child(3) a {color: #D0A00E;}
 footer div ul li:nth-child(4) a {color: #B43040;}
 
+
+/** MEDIA QUERIES **/
+
+@media (max-width: 600px) {
+    
+    .card {
+        margin: 1rem;
+    }
+}
