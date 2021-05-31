@@ -3,6 +3,65 @@ p {
     font-size: small;
 }
 
+
+/** NAV SIDE **/
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(22, 32, 44); 
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(240, 240, 240);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 10px 0 0 20px;
+  }
+  .sidenav a:nth-child(2) i {color: #0368D4;}
+  .sidenav a:nth-child(3) i {color: #248C40;}
+  .sidenav a:nth-child(4) i {color: #D0A00E;}
+  .sidenav a:nth-child(5) i {color: #B43040;}
+
+  .sidenav a span {padding-left: 20px;}
+
+
+
+  
+
+/***** MY CONTENT *****/
+.my-content {
+    margin-bottom: 7rem;
+}
+
+
 /***** ANIMATE TEXT *****/
 .title { 
     transform: translateY(-120px);  
@@ -15,6 +74,20 @@ p {
     transform: translateY(0);  
     opacity: 0.8;
 }
+
+.sub-title { 
+    transform: translateY(-120px);  
+    transition: all 1s linear;
+
+
+    opacity: 0.4;
+}
+.sub-title.animate { 
+    transform: translateY(0);  
+    opacity: 0.9;
+}
+
+
 
 /***** NAV PILLS COLOR *****/
 .nav-pills > a.active  {
@@ -80,15 +153,17 @@ footer div ul {
 
     list-style: none;
     padding-top: 1em;
+
 }
 footer div ul li { 
     padding: 3em;
 }
 
-footer div ul li:nth-child(1) a {color: #0368D4;}
-footer div ul li:nth-child(2) a {color: #248C40;}
-footer div ul li:nth-child(3) a {color: #D0A00E;}
-footer div ul li:nth-child(4) a {color: #B43040;}
+footer div ul li:nth-child(1) a i {color: #0368D4;}
+footer div ul li:nth-child(2) a i {color: #248C40;}
+footer div ul li:nth-child(3) a i {color: #D0A00E;}
+footer div ul li:nth-child(4) a i {color: #B43040;}
+footer div ul li a span {padding-left: 10px; color: rgb(240,240,240);}
 
 
 /** MEDIA QUERIES **/
@@ -99,3 +174,18 @@ footer div ul li:nth-child(4) a {color: #B43040;}
         margin: 1rem;
     }
 }
+
+
+
+/** MEDIA QUERIES - NAV SIDE **/
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
+
