@@ -404,9 +404,9 @@ body{
 
     .socialmedia li i{display: none;}
     .technologies li span { display: none;} 
-    .menubar {height: 3.5em;}
-    .itens_top li i { font-size: 0.9em;}
-    .itens_bottom li i { font-size: 0.9em;} 
+    .menubar {height: 3.5em; justify-content: space-around;}
+    .itens_top li i { font-size: 0.8em;}
+    .itens_bottom li i { font-size: 0.8em;} 
 
    }
   
