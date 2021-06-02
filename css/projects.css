@@ -4,6 +4,7 @@ p {
 }
 
 
+
 /** NAV SIDE **/
 
 
@@ -179,6 +180,11 @@ footer div ul li:nth-child(2) a i {color: #248C40;}
 footer div ul li:nth-child(3) a i {color: #D0A00E;}
 footer div ul li:nth-child(4) a i {color: #B43040;}
 footer div ul li a span {padding-left: 10px; color: rgb(240,240,240);}
+
+.itens-bottom li a{ 
+    text-decoration: none;
+}
+
 
 
 /** MEDIA QUERIES **/
