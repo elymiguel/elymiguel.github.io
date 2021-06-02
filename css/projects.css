@@ -136,6 +136,21 @@ p {
 
 
 
+/***** CARDS *****/
+.card a { 
+    text-decoration: none;
+    font-size: small;
+}
+.card a span { 
+    color: rgb(22, 32, 44) ;
+    font-size: small;
+}
+
+
+
+
+
+
 /***** FOOTER *****/
 footer { 
     display: flex;
