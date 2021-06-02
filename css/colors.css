@@ -1,28 +1,52 @@
 
 /***** COLORS *****/
+:root {
+    --myBlue: #0368D4;
+    --myGreen: #248C40;
+    --myYellow: #D0A00E;
+    --myRed: #B43040;
+    --myPurple: #533C78;
+    --myBlack: #0D1117;
+    --myWhite: rgb(240, 240, 240);
+    --myGrey: #AAA;
+    
+    --myDark: #22272E;
+    --myDarkLight: #2D333B;
+    --myBlueDark: rgb(22, 32, 44);
+    --myBlueLight: rgb(157, 198, 236);
+    --myPurple: #533C78;
+ }
 
-/***** DARK *****/
-.my-text-dark {
-    color: rgb(22, 32, 44);
+
+/***** BLUE DARK *****/
+.my-text-blue-dark {
+    color: var(--myBlueDark);
 }
-.my-bg-dark {
-    background-color: rgb(22, 32, 44);
+.my-bg-blue-dark {
+    background-color: var(--myBlueDark);
 }
-.my-body-dark {
-    color: rgb(240, 240, 240); 
-    background-color: rgb(22, 32, 44);
+.my-body-blue-dark {
+    color: var(--myWhite); 
+    background-color: var(--myBlueDark);
 }
+
+
+
 /***** LIGHT *****/
 .my-text-light {
-    color: rgb(240, 240, 240); 
+    color: var(--myWhite); 
 }
 .my-bg-light {
-    background-color: rgb(240, 240, 240); 
+    background-color: var(--myWhite); 
 }
 .my-body-light {
-    color: rgb(22, 32, 44); 
-    background-color: rgb(240, 240, 240);
+    color: var(--myBlueDark); 
+    background-color: var(--myWhite);
 }
 
-.my-bg-blue-light { background-color: rgb(157, 198, 236); } 
-.my-body-blue-light { color: rgb(22, 32, 44); background-color: rgb(157, 198, 236); }
+.my-bg-blue-light { 
+    background-color: var(--myBlueLight); 
+} 
+.my-body-blue-light { 
+    color: var(--myBlueDark); background-color: var(--myBlueLight); 
+}

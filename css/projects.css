@@ -1,12 +1,35 @@
+/***** COLORS *****/
+:root {
+    --myBlue: #0368D4;
+    --myGreen: #248C40;
+    --myYellow: #D0A00E;
+    --myRed: #B43040;
+    --myPurple: #533C78;
+    --myBlack: #0D1117;
+    --myWhite: rgb(240, 240, 240);
+    --myGrey: #AAA;
+    
+    --myDark: #22272E;
+    --myDarkLight: #2D333B;
+    --myBlueDark: rgb(22, 32, 44);
+    --myBlueLight: rgb(157, 198, 236);
+ }
+
+
+/* RESET DEFAULT VALUES - CSS */
+* {
+    box-sizing: border-box; /* Box Sizing respeitando limite da Borde Box */
+    margin: 0;  /* Zero Margin Total */
+    padding: 0; /* Zero Padding Total */ 
+}
+
 /***** FONT SIZE *****/
 p {
     font-size: small;
 }
 
 
-
 /** NAV SIDE **/
-
 
 .sidenav {
     height: 100%;
@@ -15,7 +38,7 @@ p {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(22, 32, 44); 
+    background-color: rgb(22, 32, 44);  
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -25,13 +48,13 @@ p {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 16px;
-    color: rgb(240, 240, 240);
+    color: var(--myWhite);;
     display: block;
     transition: 0.3s;
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: var(--myDarkLight);
   }
   
   .sidenav .closebtn {
@@ -46,10 +69,10 @@ p {
     transition: margin-left .5s;
     padding: 10px 0 0 20px;
   }
-  .sidenav a:nth-child(2) i {color: #0368D4;}
-  .sidenav a:nth-child(3) i {color: #248C40;}
-  .sidenav a:nth-child(4) i {color: #D0A00E;}
-  .sidenav a:nth-child(5) i {color: #B43040;}
+  .sidenav a:nth-child(2) i {color: var(--myBlue);}
+  .sidenav a:nth-child(3) i {color: var(--myGreen);}
+  .sidenav a:nth-child(4) i {color: var(--myYellow);}
+  .sidenav a:nth-child(5) i {color: var(--myRed);}
 
   .sidenav a span {padding-left: 20px;}
 
@@ -92,24 +115,20 @@ p {
 
 /***** NAV PILLS COLOR *****/
 .nav-pills > a.active  {
-    color: rgb(240, 240, 240) !important;
-    background-color: rgb(22, 32, 44) !important;
+    color: var(--myWhite) !important;
+    background-color: var(--myBlueDark) !important;
 }
 
 .nav-pills > a {
-    color: rgb(22, 32, 44) !important;
+    color: var(--myBlueDark) !important;
     font-weight: bold;
 }
 .nav-pills > a:hover {
-    color: rgb(3, 104, 212) !important;
+    color: var(--myBlue) !important;
 }
 .nav-pills > a:hover.active {
-    color: rgb(240, 240, 240) !important;
+    color: var(--myWhite) !important;
 }
-
-
-
-
 
 
 /***** LOGO OUTSYSTEMS *****/
@@ -127,13 +146,12 @@ p {
 }
 /***** REACTJS COLOR *****/
 .reactjs-color { 
-    color: #0099ff;
+    color: var(--myBlue);
 }
 /***** BOOTSTRAP COLOR *****/
 .bootstrap-color { 
-    color: #533C78;
+    color: var(--myPurple);
 }
-
 
 
 
@@ -143,12 +161,9 @@ p {
     font-size: small;
 }
 .card a span { 
-    color: rgb(22, 32, 44) ;
+    color: var(--myBlueDark) ;
     font-size: small;
 }
-
-
-
 
 
 
@@ -175,11 +190,11 @@ footer div ul li {
     padding: 3em;
 }
 
-footer div ul li:nth-child(1) a i {color: #0368D4;}
-footer div ul li:nth-child(2) a i {color: #248C40;}
-footer div ul li:nth-child(3) a i {color: #D0A00E;}
-footer div ul li:nth-child(4) a i {color: #B43040;}
-footer div ul li a span {padding-left: 10px; color: rgb(240,240,240);}
+footer div ul li:nth-child(1) a i {color: var(--myBlue);}
+footer div ul li:nth-child(2) a i {color: var(--myGreen);}
+footer div ul li:nth-child(3) a i {color: var(--myYellow);}
+footer div ul li:nth-child(4) a i {color: var(--myRed);}
+footer div ul li a span {padding-left: 10px; color: var(--myWhite);}
 
 .itens-bottom li a{ 
     text-decoration: none;
@@ -191,10 +206,15 @@ footer div ul li a span {padding-left: 10px; color: rgb(240,240,240);}
 
 @media (max-width: 900px) {
     
-    .menu-bottom ul li a i {font-size: 1.1rem;}
+    .menu-bottom ul li a i {font-size: 1.2rem;}
     .menu-bottom ul li a span {font-size: 14px;}
 }
-@media (max-width: 720px) {
+@media (max-width: 800px) {
+    
+    .menu-bottom ul li a i {font-size: 1rem;}
+    .menu-bottom ul li a span {font-size: 12px;}
+}
+@media (max-width: 760px) {
     
     .menu-bottom ul li a i {font-size: 1.5rem;}
     .menu-bottom ul li a span {display: none;}
@@ -202,7 +222,7 @@ footer div ul li a span {padding-left: 10px; color: rgb(240,240,240);}
 
 @media (max-width: 600px) {
     
-    .menu-bottom ul li a i {font-size: 1.2rem;}
+    .menu-bottom ul li a i {font-size: 1.3rem;}
     .menu-bottom ul li {padding: 2em;}
     .card {
         margin: 1rem;
