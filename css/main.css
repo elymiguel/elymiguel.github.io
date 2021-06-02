@@ -32,8 +32,9 @@ body{
 /******************** BODY-DARK *************************/
 .bodyDark {
     color: rgb(162, 185, 192); 
-    /*background-color: rgb(22, 32, 44); */
-    background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%);
+    
+    background-color: #22272E;
+    /*background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%);*/
     
 }
 .bodyDark p, .bodyDark span, .solis a{
@@ -88,10 +89,10 @@ body{
 .aside {
 /*
     background-color: rgb(25, 39, 52);  
-    background: linear-gradient(0deg, rgba(13,103,187,1) 0%, rgba(21,46,77,1) 100%);   
+     background: linear-gradient(0deg, rgb(11, 46, 78) 20%, rgba(23,35,51,1) 100%);  
 */   
-    
-    background: linear-gradient(0deg, rgb(11, 46, 78) 20%, rgba(23,35,51,1) 100%);
+    background-color: #2D333B; 
+   
    
    
 
@@ -146,7 +147,7 @@ body{
     
 }
 .socialmedia li a:hover {
-    color:rgb(22, 32, 44);
+    color:#22272E;
 }
 .socialmedia li:nth-child(-n+4) a:active {color: #0099ff;}
 
@@ -253,9 +254,9 @@ body{
 
 .menubar {
    
-    /*  background-color: rgb(25, 39, 52); */
-    background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%);
-
+    /*  background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%); */
+    
+    background-color: #2D333B; 
 
     display: flex;
     flex-direction: column;
