@@ -201,7 +201,6 @@ footer div ul li a span {padding-left: 10px; color: var(--myWhite);}
 }
 
 
-
 /** MEDIA QUERIES **/
 
 @media (max-width: 900px) {
@@ -215,7 +214,10 @@ footer div ul li a span {padding-left: 10px; color: var(--myWhite);}
     .menu-bottom ul li a span {font-size: 12px;}
 }
 @media (max-width: 760px) {
-    
+    .title-container {width: 70%;}
+    .title{font-size: 3.5rem;}
+    .sub-title{font-size: 1.2rem;}
+
     .menu-bottom ul li a i {font-size: 1.5rem;}
     .menu-bottom ul li a span {display: none;}
 }
@@ -228,7 +230,6 @@ footer div ul li a span {padding-left: 10px; color: var(--myWhite);}
         margin: 1rem;
     }
 }
-
 /** MEDIA QUERIES - NAV SIDE **/
   
   @media screen and (max-height: 450px) {
