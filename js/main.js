@@ -35,4 +35,8 @@ function closeNav() {
     document.getElementById("footer").style.display = "flex";
 }
 
-
+// PROJECT PAGE MSG
+function myProjectPage(){
+    alert('This is the "Project Page" developed with Bootstrap.')
+    
+}

@@ -223,6 +223,7 @@ body{
     border-bottom: 1px solid rgb(136, 153, 158, 0.5);
 
 }
+/* TECHNOLOGIES */
 
 .technologies ul {
 
@@ -238,14 +239,14 @@ body{
     
 }
 
-.technologies li:nth-child(1) i {color: #E95420;} 
-.technologies li:nth-child(2) i {color: #0099ff;} 
-.technologies li:nth-child(3) i {color: #ffa323;} 
-.technologies li:nth-child(4) i {color: #0099ff;} 
-.technologies li:nth-child(5) i {color: #88304C;}
+.technologies li:nth-child(2) i {color: #E95420;} 
+.technologies li:nth-child(3) i {color: #0099ff;} 
+.technologies li:nth-child(4) i {color: #ffa323;} 
+.technologies li:nth-child(5) i {color: #0099ff;} 
+.technologies li:nth-child(6) i {color: #88304C;}
 .technologies li i span {color: rgb(136, 153, 158);} 
 
-.technologies li:nth-child(6) img {width: 20px; height: 20px;  opacity: 0.6;}
+.technologies li:nth-child(1) img {width: 20px; height: 20px;  opacity: 0.8;}
 
 
 /*****************************************************/
