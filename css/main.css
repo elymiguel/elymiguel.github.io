@@ -166,6 +166,9 @@ body{
     height:70px; 
     opacity: 0.8;
 }
+.div-myphoto {
+    margin-top: 1rem;
+}
 
 .myphoto {
     width: 120px;
@@ -378,6 +381,11 @@ body{
         }
         .itens_top li {padding: 0.7em;}
         .itens_bottom li {padding: 0.5em;}
+
+
+        .div-myphoto {
+            margin-top: 0.3rem;
+        }
 
         .myphoto {
             width: 60px;
