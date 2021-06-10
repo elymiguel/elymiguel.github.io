@@ -11,8 +11,7 @@ function changeBodyTheme(){
     }
 
 
-// PROJECT PAGE 
-// Function - Nav Bar | Open - Close 
+
 
 setTimeout(function() { 
     document.querySelector('.title').classList.add('animate');
@@ -21,6 +20,8 @@ setTimeout(function() {
     
 },1)
 
+
+// Function - Nav Bar | Open - Close 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -35,7 +36,7 @@ function closeNav() {
     document.getElementById("footer").style.display = "flex";
 }
 
-// PROJECT PAGE MSG
+// Funciton MSG Project Page
 function myProjectPage(){
     alert('This is the "Project Page" developed with Bootstrap.')
     
