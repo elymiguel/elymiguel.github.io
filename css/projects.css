@@ -8,11 +8,14 @@
     --myBlack: #0D1117;
     --myWhite: rgb(240, 240, 240);
     --myGrey: #AAA;
+    --myGreyDark: rgb(100, 100, 100);
     
     --myDark: #22272E;
     --myDarkLight: #2D333B;
     --myBlueDark: rgb(22, 32, 44);
     --myBlueLight: rgb(157, 198, 236);
+
+    
  }
 
 
@@ -42,43 +45,80 @@ p {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
-    padding: 8px 8px 8px 32px;
+
+}
+.sidenav a {
+    color: var(--myWhite);
     text-decoration: none;
-    font-size: 16px;
-    color: var(--myWhite);;
-    display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+.sidenav a:hover {
     color: var(--myDarkLight);
   }
-  
-  .sidenav .closebtn {
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
   
-  #main {
+/******* Menu Icon *****/ 
+
+#main {
     transition: margin-left .5s;
     padding: 10px 0 0 20px;
-  }
-  .sidenav a:nth-child(2) i {color: var(--myBlue);}
-  .sidenav a:nth-child(3) i {color: var(--myGreen);}
-  .sidenav a:nth-child(4) i {color: var(--myYellow);}
-  .sidenav a:nth-child(5) i {color: var(--myRed);}
-
-  .sidenav a span {padding-left: 20px;}
+}
 
 
+/******* Photo & title *****/  
 
+.sidenav .nome .myphoto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid rgb(136, 153, 158, 0.5);
+    transition: all 0.5s ease 0s;
+    
+}
+.sidenav .nome {
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    opacity: 0.9;
+}
+
+/******* My Contacts *****/  
+.sidenav .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+
+.sidenav .contacts a {
+    
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
   
+
+
+
+.sidenav .contacts a:nth-child(1) i {color: var(--myBlue);}
+.sidenav .contacts a:nth-child(2) i {color: var(--myGreen);}
+.sidenav .contacts a:nth-child(3) i {color: var(--myYellow);}
+.sidenav .contacts a:nth-child(4) i {color: var(--myRed);}
+
+.sidenav .contacts a:hover i{
+    color: var(--myDarkLight);
+    transition: 0.5s;
+}
+
 
 /***** MY CONTENT *****/
 .my-content {
@@ -86,7 +126,7 @@ p {
 }
 
 
-/***** ANIMATE TEXT *****/
+/***** ANIMATE TITLE *****/
 .title { 
     transform: translateY(-120px);  
     transition: all 1.5s linear;
@@ -193,12 +233,15 @@ footer div ul li {
 footer div ul li:nth-child(1) a i {color: var(--myBlue);}
 footer div ul li:nth-child(2) a i {color: var(--myGreen);}
 footer div ul li:nth-child(3) a i {color: var(--myYellow);}
-footer div ul li:nth-child(4) a i {color: var(--myRed);}
+
 footer div ul li a span {padding-left: 10px; color: var(--myWhite);}
 
 .itens-bottom li a{ 
     text-decoration: none;
 }
+.itens-bottom li a:hover span {
+    color: var(--myDarkLight);
+  }
 
 
 /** MEDIA QUERIES **/

@@ -43,7 +43,10 @@
     color: var(--myBlueDark); 
     background-color: var(--myWhite);
 }
-
+/***** BLUE LIGHT *****/
+.my-text-blue-light {
+    color: var(--myBlueLight); 
+}
 .my-bg-blue-light { 
     background-color: var(--myBlueLight); 
 } 

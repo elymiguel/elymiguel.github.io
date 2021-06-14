@@ -24,7 +24,7 @@ setTimeout(function() {
 // Function - Nav Bar | Open - Close 
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("main").style.marginLeft = "200px";
     document.getElementById("myContent").style.opacity = 0.85;
     document.getElementById("footer").style.display = "none";
 }
