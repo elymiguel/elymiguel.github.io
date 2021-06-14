@@ -81,8 +81,6 @@ body{
 .bodyLight .itens_top li:nth-child(1) a {color: #0368D4;}
 .bodyLight .itens_top li:nth-child(1) a:hover {color: goldenrod; transition: all 0.7s ease 0s;}
 
-
-
 /*****************************************************/
 /************************ ASIDE **********************/
 /*****************************************************/
@@ -201,20 +199,24 @@ body{
     
     border-top: 1px solid rgb(136, 153, 158, 0.5);
 }
+.exp_profissional .solis a i {color: #0368D4;}
+.exp_profissional .solis a:hover i {font-size: 1.2em;  transition: all 0.7s ease 0s; }
+
+
 .educational {
     margin-top: 2em;
     border-top: 1px solid rgb(136, 153, 158, 0.5);
 }
-.educational p a i {color: goldenrod;}
-.educational p a:hover i {font-size: 1.6em;  transition: all 0.7s ease 0s; }
+.educational p a i {color: #0368D4;}
+.educational p a:hover i {font-size: 1.2em;  transition: all 0.7s ease 0s; }
 
 .certifications {
     margin-top: 2em;
     border-top: 1px solid rgb(136, 153, 158, 0.5);
 }
 
-.certifications p a i {color: goldenrod;}
-.certifications p a:hover i {font-size: 1.6em;  transition: all 0.7s ease 0s; }
+.certifications p a i {color: #0368D4;}
+.certifications p a:hover i {font-size: 1.2em;  transition: all 0.7s ease 0s; }
 
 .profession {
     text-decoration: underline;
@@ -247,6 +249,10 @@ body{
     
 }
 
+.technologies ul li{
+    margin-left: -40px;
+} 
+
 .technologies li:nth-child(2) i {color: #E95420;} 
 .technologies li:nth-child(3) i {color: #0099ff;} 
 .technologies li:nth-child(4) i {color: #ffa323;} 
@@ -255,6 +261,7 @@ body{
 .technologies li i span {color: rgb(136, 153, 158);} 
 
 .technologies li:nth-child(1) img {width: 20px; height: 20px;  opacity: 0.8;}
+
 
 
 /*****************************************************/
