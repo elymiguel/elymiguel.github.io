@@ -53,7 +53,7 @@ p {
     transition: 0.3s;
 }
 .sidenav a:hover {
-    color: var(--myDarkLight);
+    color: var(--myBlueLight);
   }
 .sidenav .closebtn {
     position: absolute;
@@ -115,7 +115,7 @@ p {
 .sidenav .contacts a:nth-child(4) i {color: var(--myRed);}
 
 .sidenav .contacts a:hover i{
-    color: var(--myDarkLight);
+    color: var(--myBlueLight);
     transition: 0.5s;
 }
 
@@ -240,7 +240,7 @@ footer div ul li a span {padding-left: 10px; color: var(--myWhite);}
     text-decoration: none;
 }
 .itens-bottom li a:hover span {
-    color: var(--myDarkLight);
+    color: var(--myBlueLight);
   }
 
 
