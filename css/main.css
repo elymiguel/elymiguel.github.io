@@ -253,14 +253,20 @@ body{
     margin-left: -40px;
 } 
 
+.technologies li i  { font-size: 25px}
+
+.technologies li:nth-child(1) img {width: 20px; height: 20px;  opacity: 0.8;}
+
 .technologies li:nth-child(2) i {color: #E95420;} 
 .technologies li:nth-child(3) i {color: #0099ff;} 
 .technologies li:nth-child(4) i {color: #ffa323;} 
-.technologies li:nth-child(5) i {color: #0099ff;} 
-.technologies li:nth-child(6) i {color: #88304C;}
+.technologies li:nth-child(5) i {color: #88304C;}
+.technologies li:nth-child(6) img {width: 100px; height: 30px;}
+
+
 .technologies li i span {color: rgb(136, 153, 158);} 
 
-.technologies li:nth-child(1) img {width: 20px; height: 20px;  opacity: 0.8;}
+
 
 
 
@@ -326,7 +332,7 @@ body{
 
         .nome > p {display: none;} /** Maior que (>) filho direto **/
         
-        .info_pessoal { display: none;}
+       
 
         .aside {
             display: flex;
@@ -336,13 +342,13 @@ body{
             width: 100%;
             height: 5em;
 
-            min-width: 500px;
+            justify-content: space-between;
 
             position: fixed;
             top: 0px;
             left: 0px;
 
-            justify-content: space-between;
+           
 
             border-bottom: 1px solid rgb(136, 153, 158, 0.5);
             transition: all 0.5s ease 0s; 
@@ -358,6 +364,8 @@ body{
             font-size: 1em;
            
         }
+
+
         .socialmedia li a {
             font-size: 1em;
         }
@@ -402,36 +410,37 @@ body{
             transition: all 0.5s ease 0s;
         }
 
-        .outsystems_certified li {
-            display: none;
-            
-        }
-        .nome > h2 {padding-left: 1em; }
-        .nome > h4 {padding-left: 2em; font-size: 0.7em;}
+        .aside .outsystems_certified {display: none;}
+        
+        .nome > h4 { font-size: 0.7em;}
         
 }
 
+@media screen and (max-width:680px){
+    .aside .div-myphoto {display: none; transition: all 0.5s ease 0s; }
+    .technologies li span { display: none;}
 
-@media screen and (max-width:720px){
-
- .myphoto {display: none; transition: all 0.5s ease 0s; }
-        
- .nome > h2 {padding-left: 1em; }
- .nome > h4 {padding-left: 2em; font-size: 0.7em;}
-
- 
-}
+    .aside {justify-content: space-around;}
+   
+} 
 
 @media screen and (max-width:580px){
 
-    .socialmedia li i{display: none;}
-    .technologies li span { display: none;} 
     .menubar {height: 3.5em; justify-content: space-around;}
     .itens_top li i { font-size: 0.8em;}
     .itens_bottom li i { font-size: 0.8em;} 
 
-   }
-  
+}
+
+@media screen and (max-width:480px){
+   
+    .aside {justify-content: center;}
+    .aside .socialmedia {display: none;}
+   
+} 
+
+
+
 /****************** MEDIA SCREEN HEIGHT ********************/
 
 @media screen and (max-height:580px){
