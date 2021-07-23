@@ -196,6 +196,12 @@ p {
 
 
 /***** CARDS *****/
+.card { 
+
+    box-shadow: 0px 0px 8px 2px var(--myGrey);
+}
+
+
 .card:hover { 
 
     box-shadow: 0px 0px 8px 2px var(--myBlueLight);
