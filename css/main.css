@@ -37,7 +37,7 @@ body{
     /*background: linear-gradient(0deg, rgba(11, 46, 78) 20%, rgba(23,35,51,1) 100%);*/
     
 }
-.bodyDark p, .bodyDark span, .solis a{
+.bodyDark p, .bodyDark span,  a{
     color: rgb(136, 153, 158); 
 }
 
@@ -202,6 +202,8 @@ body{
 .exp_profissional .solis a i {color: #0368D4;}
 .exp_profissional .solis a:hover i {font-size: 1.2em;  transition: all 0.7s ease 0s; }
 
+.exp_profissional .transito-brasil a i {color: #0368D4;}
+.exp_profissional .transito-brasil a:hover i {font-size: 1.2em;  transition: all 0.7s ease 0s; }
 
 .educational {
     margin-top: 2em;
